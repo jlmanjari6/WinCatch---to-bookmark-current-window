@@ -1,0 +1,13 @@
+{
+    "name": "WinCatch - to Bookmark Current Window",
+    "version": "1.0",
+    "description": "Bookmark all the open tabs in the window!",
+    "permissions": [
+        "bookmarks",
+        "tabs"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 2
+}
