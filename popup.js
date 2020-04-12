@@ -1,7 +1,7 @@
 document.getElementById("btnBookmark").addEventListener("click", function () {
     // create bookmark folder 
     chrome.bookmarks.create({
-        'parentId': "1",  
+        'parentId': "1",
         'title': document.getElementById("bookmarkFolderName").value
     },
         function (newFolder) {
